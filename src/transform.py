@@ -1,6 +1,6 @@
 import pandas as pd
 
-from extract import fetch_exchange_rates
+from src.extract import fetch_exchange_rates
 
 
 def transform_exchange_rates(data):

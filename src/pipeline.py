@@ -1,6 +1,6 @@
-from extract import fetch_exchange_rates
-from transform import transform_exchange_rates
-from load import load_to_postgres
+from src.extract import fetch_exchange_rates
+from src.transform import transform_exchange_rates
+from src.load import load_to_postgres
 
 
 def run_pipeline():

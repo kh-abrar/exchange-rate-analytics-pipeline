@@ -3,8 +3,8 @@ import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 
-from extract import fetch_exchange_rates
-from transform import transform_exchange_rates
+from src.extract import fetch_exchange_rates
+from src.transform import transform_exchange_rates
 
 
 load_dotenv()
